@@ -149,11 +149,12 @@ class Homepage extends StatelessWidget {
             const SizedBox(height: 15),
 
              const Padding(
-              padding: EdgeInsets.only(left: 45.0, bottom: 8.0), 
+              padding: EdgeInsets.only(left: 45.0, right: 25.0, bottom: 8.0), 
               child: Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   'In A Grand Piano This Staggering Amount Of Pressure Similar To The Weight Of Several Elephants Is Necessary To Produce The Full, Rich Sound Of The Instrument. Because of this, pianos require a massive cast-iron frame (or "plate") to keep from imploding.',
+                  textAlign: TextAlign.justify,
                   style: TextStyle(
                     fontFamily: 'Dongle',
                     fontSize: 32,
